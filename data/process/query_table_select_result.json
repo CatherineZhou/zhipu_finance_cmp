@@ -1,0 +1,2062 @@
+[
+ {
+  "tid": "tttt----1",
+  "team": [
+   {
+    "id": "tttt----1----1-1-1",
+    "question": "600872的全称、A股简称、法人、法律顾问、会计师事务所及董秘是？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives, AStockBasicInfoDB.LC_NameChange, AStockShareholderDB.LC_MainSHListNew, AStockShareholderDB.LC_ActualController, AStockEventsDB.LC_MajorContract, AStockBasicInfoDB.LC_Business"
+   },
+   {
+    "id": "tttt----1----1-1-2",
+    "question": "该公司实控人是否发生改变？如果发生变化，什么时候变成了谁？是哪国人？是否有永久境外居留权？（回答时间用XXXX-XX-XX）",
+    "db_table": "AStockShareholderDB.LC_ActualController"
+   },
+   {
+    "id": "tttt----1----1-1-3",
+    "question": "在实控人发生变化的当年股权发生了几次转让？",
+    "db_table": "AStockShareholderDB.LC_ShareTransfer"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----2",
+  "team": [
+   {
+    "id": "tttt----2----2-1-1",
+    "question": "今天是2021年12月24日，创近半年新高的股票有几只？",
+    "db_table": "AStockMarketQuotesDB.CS_StockPatterns"
+   },
+   {
+    "id": "tttt----2----2-1-2",
+    "question": "哪些股票股价大于75，且同时当天创一年新高的是？",
+    "db_table": "AStockMarketQuotesDB.CS_StockPatterns, AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----2----2-1-3",
+    "question": "以上股票连续两日（今日与昨日）满足上述要求的是？",
+    "db_table": "AStockMarketQuotesDB.CS_StockPatterns, AStockMarketQuotesDB.QT_DailyQuote"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----3",
+  "team": [
+   {
+    "id": "tttt----3----3-2-1",
+    "question": "2019年度（合并）常熟银行的职工总数有多少人？",
+    "db_table": "AStockOperationsDB.LC_Staff"
+   },
+   {
+    "id": "tttt----3----3-2-2",
+    "question": "该公司披露的硕士或研究生学历（及以上）的有多少人？",
+    "db_table": "AStockOperationsDB.LC_Staff"
+   },
+   {
+    "id": "tttt----3----3-2-3",
+    "question": "20201月1日至年底退休了多少人？",
+    "db_table": "AStockOperationsDB.LC_Staff"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----4",
+  "team": [
+   {
+    "id": "tttt----4----4-2-1",
+    "question": "互联网金融属于科技概念的什么分支？这个概念的英文名称是什么？",
+    "db_table": "互联网金融属于科技概念中的金融科技（Fintech）分支。这个概念的英文名称是 \"Internet Finance\"。"
+   },
+   {
+    "id": "tttt----4----4-2-2",
+    "question": "截至2021年底，这个概念有多少只股票（不包含已经调出的）？调出了多少只股票？",
+    "db_table": "截至2021年底，我无法提供实时数据或最新的市场统计信息。我的知识截止日期是2023年4月，而且我无法访问互联网以获取最新数据。要获取截至2021年底互联网金融概念股票的数量以及调出股票的数量，您需要查阅最新的市场研究报告、金融数据库或相关金融新闻。通常，这些信息可以通过金融数据服务提供商、证券交易所或投资研究机构获得。如果您需要这些数据，建议您直接访问这些资源或联系金融专业人士以获取最新信息。"
+   },
+   {
+    "id": "tttt----4----4-2-3",
+    "question": "哪些是2020年纳入的，A股简称分别叫什么？",
+    "db_table": "由于我无法访问实时数据或最新的市场信息，我无法提供2020年具体纳入互联网金融概念的A股股票及其简称。要获取这些信息，您需要查阅历史市场数据或相关的金融新闻报道。\n\n通常，当新的股票被纳入某个概念或行业分类时，相关的金融新闻、市场研究报告或证券交易所会发布公告。您可以通过以下途径获取这些信息：\n\n1. 证券交易所官网：上海证券交易所（SSE）、深圳证券交易所（SZSE）等。\n2. 金融数据服务提供商：如Wind、东方财富、同花顺等。\n3. 投资银行或证券公司的行业研究报告。\n4. 金融新闻网站或专业的投资社区。\n\n请注意，股票的纳入和调出通常是基于特定的标准和条件，这些标准和条件可能会随着市场和监管环境的变化而变化。因此，获取准确的信息需要查阅正式的公告或权威的市场数据源。"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----5",
+  "team": [
+   {
+    "id": "tttt----5----5-2-1",
+    "question": "化工纳入过多少个子类概念？",
+    "db_table": "AStockIndustryDB.LC_COConcept"
+   },
+   {
+    "id": "tttt----5----5-2-2",
+    "question": "2021年纳入过多少个？分别是？",
+    "db_table": "很抱歉，我无法直接查询数据库来获取2021年化工纳入子类概念的具体数量和名称。我的功能是基于已有的知识库来提供信息。如果您需要查询具体的数据，建议您直接访问相关的数据库或数据服务平台。如果您有其他问题或需要其他类型的信息，我会尽力帮助您。"
+   },
+   {
+    "id": "tttt----5----5-2-3",
+    "question": "2021年纳入的这些概念的股票有多少只？分别属于哪些三级行业（仅考虑2021年新纳入的行业数据）？",
+    "db_table": "很抱歉，但作为一个AI，我无法直接访问数据库来检索实时或特定年份的数据。要获取2021年新纳入化工子类概念的股票数量及其所属的三级行业，您需要访问相关的金融数据库或使用数据服务API，如Wind、同花顺、东方财富等，这些服务通常会提供行业分类和概念股的数据。\n\n如果您有访问这些数据库的权限，您可以通过以下步骤来获取所需信息：\n\n1. 确定化工行业及其子类概念在数据库中的具体分类代码或名称。\n2. 查询2021年新纳入的化工子类概念列表。\n3. 对于每个新纳入的概念，查询属于该概念的股票列表。\n4. 对于每只股票，查询其所属的三级行业分类。\n\n请注意，行业分类标准可能会随着时间而变化，因此确保使用2021年适用的行业分类标准。如果您需要帮助理解如何解读行业分类数据或有关行业分类标准的问题，我可以提供帮助。"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----6",
+  "team": [
+   {
+    "id": "tttt----6----6-2-1",
+    "question": "天顺风能披露了多少次担保信息？",
+    "db_table": "AStockEventsDB.LC_Warrant"
+   },
+   {
+    "id": "tttt----6----6-2-2",
+    "question": "他一共披露过多少次借贷信息？2021年披露了多少次？",
+    "db_table": "AStockEventsDB.LC_Credit"
+   },
+   {
+    "id": "tttt----6----6-2-3",
+    "question": "他一共披露了多少次重大资产重组信息？2021年披露了多少次？2020年披露了多少次？",
+    "db_table": "AStockEventsDB.LC_Regroup"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----7",
+  "team": [
+   {
+    "id": "tttt----7----7-2-1",
+    "question": "天顺风能属于哪个三级行业？",
+    "db_table": "AStockIndustryDB.LC_ExgIndustry"
+   },
+   {
+    "id": "tttt----7----7-2-2",
+    "question": "2021年发布的该行业的股票有多少只？",
+    "db_table": "AStockIndustryDB.LC_ExgIndustry"
+   },
+   {
+    "id": "tttt----7----7-2-3",
+    "question": "该行业8月公布的最高行业营业收入是多少万元？",
+    "db_table": "AStockIndustryDB.LC_IndFinIndicators"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----8",
+  "team": [
+   {
+    "id": "tttt----8----8-2-1",
+    "question": "首钢股份发布增发和配股次数分别是多少次？",
+    "db_table": "AStockFinanceDB.LC_AShareSeasonedNewIssue,AStockFinanceDB.LC_ASharePlacement"
+   },
+   {
+    "id": "tttt----8----8-2-2",
+    "question": "该股每次增发预计募集资金总额分别是？增发预计募集资金总额最高的公司中文全称是？金额是？",
+    "db_table": "AStockFinanceDB.LC_AShareSeasonedNewIssue"
+   },
+   {
+    "id": "tttt----8----8-2-3",
+    "question": "该股每次配股发行费用总额分别是？配股发行费用总额最高的中文全称是？金额是？",
+    "db_table": "AStockFinanceDB.LC_ASharePlacement"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----9",
+  "team": [
+   {
+    "id": "tttt----9----9-2-1",
+    "question": "新天绿能2020年年度研发投入合计是多少元？研发人员数量为多少人？（合并报表调整后的，金额保留2位小数）",
+    "db_table": "AStockFinanceDB.LC_IntAssetsDetail"
+   },
+   {
+    "id": "tttt----9----9-2-2",
+    "question": "费用化研发占比为？资本化研发占比为？",
+    "db_table": "AStockFinanceDB.LC_IntAssetsDetail"
+   },
+   {
+    "id": "tttt----9----9-2-3",
+    "question": "上一年度研发投入最高的三家公司是？（回答中文简称）",
+    "db_table": "AStockFinanceDB.LC_IntAssetsDetail"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----10",
+  "team": [
+   {
+    "id": "tttt----10----10-2-1",
+    "question": "000958公司2021年主营业务产品有哪些？（合并报表调整后的，金额保留2位小数）",
+    "db_table": "AStockFinanceDB.LC_MainOperIncome"
+   },
+   {
+    "id": "tttt----10----10-2-2",
+    "question": "公司2021年比2020年主营业务产品减少的有？",
+    "db_table": "AStockFinanceDB.LC_MainOperIncome"
+   },
+   {
+    "id": "tttt----10----10-2-3",
+    "question": "公司2021年度经营情况的信息发布日期是（XXXX-XX-XX）？",
+    "db_table": "AStockFinanceDB.LC_OperatingStatus"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----11",
+  "team": [
+   {
+    "id": "tttt----11----11-2-1",
+    "question": "工商银行的H股代码、中文名称及英文名称分别是？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives,ConstantDB.HK_SecuMain"
+   },
+   {
+    "id": "tttt----11----11-2-2",
+    "question": "该公司的主席及公司邮箱是？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives,HKStockDB.HK_StockArchives"
+   },
+   {
+    "id": "tttt----11----11-2-3",
+    "question": "该公司2020年12月底披露的变更前后的员工人数为多少人？",
+    "db_table": "HKStockDB.HK_EmployeeChange"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----12",
+  "team": [
+   {
+    "id": "tttt----12----12-2-1",
+    "question": "今天是2020年6月24日，阅文集团近一个月最高价是（保留2位小数）？",
+    "db_table": "AStockMarketQuotesDB.QT_StockPerformance"
+   },
+   {
+    "id": "tttt----12----12-2-2",
+    "question": "近一年最低价？",
+    "db_table": "AStockMarketQuotesDB.QT_StockPerformance"
+   },
+   {
+    "id": "tttt----12----12-2-3",
+    "question": "差额是？",
+    "db_table": "AStockMarketQuotesDB.QT_StockPerformance"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----13",
+  "team": [
+   {
+    "id": "tttt----13----13-2-1",
+    "question": "今天是2020年10月27日，当日收盘价第3高的港股是？(以下都回答简称)",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----13----13-2-2",
+    "question": "成交量第3高的是？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----13----13-2-3",
+    "question": "换手率第3高的是？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----14",
+  "team": [
+   {
+    "id": "tttt----14----14-2-1",
+    "question": "2019-09-02，当日收盘价最高的港股是？(以下都回答简称)",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----14----14-2-2",
+    "question": "2019-09-02，当日成交量最高的是？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----14----14-2-3",
+    "question": "2019-09-02，当日换手率最高的是？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----15",
+  "team": [
+   {
+    "id": "tttt----15----15-2-1",
+    "question": "2020年之间 哪些公司进行公司名称全称变更，公司代码是什么？",
+    "db_table": "AStockBasicInfoDB.LC_NameChange"
+   },
+   {
+    "id": "tttt----15----15-2-2",
+    "question": "这些公司A股证券代码分别是什么？",
+    "db_table": "AStockBasicInfoDB.LC_NameChange, ConstantDB.SecuMain"
+   },
+   {
+    "id": "tttt----15----15-2-3",
+    "question": "这些公司的证券内部编码是多少？",
+    "db_table": "AStockBasicInfoDB.LC_NameChange, ConstantDB.SecuMain"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----16",
+  "team": [
+   {
+    "id": "tttt----16----16-2-1",
+    "question": "2021-12-31报告期内，查询总资产最高的公司是?",
+    "db_table": "AStockFinanceDB.LC_BalanceSheetAll"
+   },
+   {
+    "id": "tttt----16----16-2-2",
+    "question": "经营活动产生的现金流量净额最高的公司是？",
+    "db_table": "AStockFinanceDB.LC_CashFlowStatementAll"
+   },
+   {
+    "id": "tttt----16----16-2-3",
+    "question": "这两个公司净利润差额是？",
+    "db_table": "AStockFinanceDB.LC_IncomeStatementAll"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----17",
+  "team": [
+   {
+    "id": "tttt----17----17-2-1",
+    "question": "2020年4月涨幅前10的港股股票有哪些?",
+    "db_table": "AStockMarketQuotesDB.CS_HKStockPerformance"
+   },
+   {
+    "id": "tttt----17----17-2-2",
+    "question": "2020年5月涨幅前10的港股股票有哪些？",
+    "db_table": "AStockMarketQuotesDB.CS_HKStockPerformance"
+   },
+   {
+    "id": "tttt----17----17-2-3",
+    "question": "2020年4月涨幅前十的股票中， 5月涨幅最小的是？",
+    "db_table": "AStockMarketQuotesDB.CS_HKStockPerformance"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----18",
+  "team": [
+   {
+    "id": "tttt----18----1-2-1",
+    "question": "东航物流的注册邮箱是什么？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----18----1-2-2",
+    "question": "该公司的实控人是谁？",
+    "db_table": "AStockShareholderDB.LC_ActualController"
+   },
+   {
+    "id": "tttt----18----1-2-3",
+    "question": "该实控人名下一共有多少家公司？",
+    "db_table": "AStockShareholderDB.LC_MainSHListNew, AStockShareholderDB.LC_ActualController"
+   },
+   {
+    "id": "tttt----18----1-2-4",
+    "question": "这些公司从事物流业务的有多少家？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives, AStockIndustryDB.LC_ExgIndustry"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----19",
+  "team": [
+   {
+    "id": "tttt----19----2-2-1",
+    "question": "航锦科技股份有限公司是否变更过公司名称？",
+    "db_table": "AStockBasicInfoDB.LC_NameChange"
+   },
+   {
+    "id": "tttt----19----2-2-2",
+    "question": "该公司涉及回购的最大的一笔金额是多少？",
+    "db_table": "AStockShareholderDB.LC_Buyback,AStockShareholderDB.LC_BuybackAttach"
+   },
+   {
+    "id": "tttt----19----2-2-3",
+    "question": "该年度前十大股东的持股比例变成了多少？",
+    "db_table": "AStockShareholderDB.LC_MainSHListNew"
+   },
+   {
+    "id": "tttt----19----2-2-4",
+    "question": "当年公司的技术与生产人员一共有多少人？",
+    "db_table": "AStockOperationsDB.LC_Staff"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----20",
+  "team": [
+   {
+    "id": "tttt----20----3-2-1",
+    "question": "申万一级行业是交通运输的公司有多少家？",
+    "db_table": "AStockIndustryDB.LC_ExgIndustry"
+   },
+   {
+    "id": "tttt----20----3-2-2",
+    "question": "这些公司中多少家是20年变更的行业？",
+    "db_table": "AStockIndustryDB.LC_ExgIndChange"
+   },
+   {
+    "id": "tttt----20----3-2-3",
+    "question": "变更后又在21年取消的有哪些公司？",
+    "db_table": "AStockIndustryDB.LC_ExgIndChange"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----21",
+  "team": [
+   {
+    "id": "tttt----21----4-2-1",
+    "question": "科达制造2021年8月4日当天的最高价与最低价分别是多少",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----21----4-2-2",
+    "question": "该股票的概念板块当年多少次涨停？",
+    "db_table": "AStockMarketQuotesDB.CS_StockPatterns, AStockIndustryDB.LC_COConcept"
+   },
+   {
+    "id": "tttt----21----4-2-3",
+    "question": "该股票所属的一级概念是什么？",
+    "db_table": "AStockIndustryDB.LC_COConcept"
+   },
+   {
+    "id": "tttt----21----4-2-4",
+    "question": "该公司所属二级行业当日行业总市值有多少",
+    "db_table": "AStockIndustryDB.LC_ExgIndustry, AStockFinanceDB.LC_BalanceSheetAll"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----22",
+  "team": [
+   {
+    "id": "tttt----22----5-2-1",
+    "question": "涪陵榨菜的注册地址在哪？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----22----5-2-2",
+    "question": "该公司上市公告书中的前十大股东是哪些？",
+    "db_table": "AStockShareholderDB.LC_MainSHListNew"
+   },
+   {
+    "id": "tttt----22----5-2-3",
+    "question": "这些股东里有几家是基金管理公司？",
+    "db_table": "AStockShareholderDB.LC_MainSHListNew, AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----22----5-2-4",
+    "question": "存在资料的公司有几家，这些公司在2019年分别管理了多少种基金？",
+    "db_table": "AStockShareholderDB.LC_MainSHListNew, AStockBasicInfoDB.LC_StockArchives, PublicFundDB.MF_FundArchives"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----23",
+  "team": [
+   {
+    "id": "tttt----23----6-2-1",
+    "question": "唐山港集团股份有限公司是什么时间上市的（回答XXXX-XX-XX）",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----23----6-2-2",
+    "question": "当年一共上市了多少家企业？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----23----6-2-3",
+    "question": "这些企业有多少是在北京注册的？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives, ConstantDB.LC_AreaCode"
+   },
+   {
+    "id": "tttt----23----6-2-4",
+    "question": "哪些是注册和办公都在海淀的？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives, ConstantDB.LC_AreaCode"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----24",
+  "team": [
+   {
+    "id": "tttt----24----7-2-1",
+    "question": "山东药玻2020年发布的19年年报的大股东是谁",
+    "db_table": "AStockShareholderDB.LC_MainSHListNew"
+   },
+   {
+    "id": "tttt----24----7-2-2",
+    "question": "19年一共有多少户股东？",
+    "db_table": "AStockShareholderDB.LC_SHNumber"
+   },
+   {
+    "id": "tttt----24----7-2-3",
+    "question": "他的流通股本有多少股？",
+    "db_table": "AStockFinanceDB.LC_ShareStru"
+   },
+   {
+    "id": "tttt----24----7-2-4",
+    "question": "19年的股权变动中涉及股数量最大的一次非专场大宗交易是在哪天正式变动的？（时间回答XXXX-XX-XX）",
+    "db_table": "AStockShareholderDB.LC_ShareTransfer"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----25",
+  "team": [
+   {
+    "id": "tttt----25----8-2-1",
+    "question": "中南出版传媒集团股份有限公司的证券代码是多少？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----25----8-2-2",
+    "question": "该公司2019年母公司一季报中预付款项是多少？",
+    "db_table": "AStockFinanceDB.LC_BalanceSheetAll"
+   },
+   {
+    "id": "tttt----25----8-2-3",
+    "question": "总营收呢？",
+    "db_table": "AStockFinanceDB.LC_IncomeStatementAll"
+   },
+   {
+    "id": "tttt----25----8-2-4",
+    "question": "经营活动现金流入了多少？",
+    "db_table": "AStockFinanceDB.LC_CashFlowStatementAll"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----26",
+  "team": [
+   {
+    "id": "tttt----26----9-2-1",
+    "question": "000932的英文名称是什么？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----26----9-2-2",
+    "question": "该公司20年的年报中前三高管薪资是多少？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives, AStockFinanceDB.LC_AuditOpinion"
+   },
+   {
+    "id": "tttt----26----9-2-3",
+    "question": "当年该公司是否成功资产重组？(回答是或者否)",
+    "db_table": "AStockEventsDB.LC_Regroup"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----27",
+  "team": [
+   {
+    "id": "tttt----27----10-2-1",
+    "question": "RXW中文全称是什么？",
+    "db_table": "ConstantDB.CT_SystemConst"
+   },
+   {
+    "id": "tttt----27----10-2-2",
+    "question": "该公司上市时一共配售了多少张股？",
+    "db_table": "AStockFinanceDB.LC_ASharePlacement"
+   },
+   {
+    "id": "tttt----27----10-2-3",
+    "question": "21年该公司的研发投入是多少？",
+    "db_table": "AStockFinanceDB.LC_IntAssetsDetail"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----28",
+  "team": [
+   {
+    "id": "tttt----28----11-2-1",
+    "question": "Titan Wind Energy (Suzhou) Co.,Ltd.董秘是谁",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----28----11-2-2",
+    "question": "20年首次信息发布中单笔回购资金总额上限最高的是多少？",
+    "db_table": "AStockShareholderDB.LC_Buyback"
+   },
+   {
+    "id": "tttt----28----11-2-3",
+    "question": "怎么管理？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives, AStockOperationsDB.LC_Staff, AStockShareholderDB.LC_MainSHListNew, AStockShareholderDB.LC_ActualController, AStockFinanceDB.LC_BalanceSheetAll, AStockFinanceDB.LC_IncomeStatementAll, AStockFinanceDB.LC_CashFlowStatementAll, AStockEventsDB.LC_Warrant, AStockEventsDB.LC_Credit, AStockEventsDB.LC_SuitArbitration, AStockEventsDB.LC_EntrustInv, AStockEventsDB.LC_Regroup, AStockEventsDB.LC_MajorContract"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----29",
+  "team": [
+   {
+    "id": "tttt----29----12-2-1",
+    "question": "东兴证券2019年一共成功为多少家公司提供过担保？",
+    "db_table": "AStockEventsDB.LC_Warrant"
+   },
+   {
+    "id": "tttt----29----12-2-2",
+    "question": "这些担保项目中担保最多的金额是多少？",
+    "db_table": "AStockEventsDB.LC_Warrant"
+   },
+   {
+    "id": "tttt----29----12-2-3",
+    "question": "当年该公司有多少起合同纠纷？",
+    "db_table": "AStockEventsDB.LC_SuitArbitration"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----30",
+  "team": [
+   {
+    "id": "tttt----30----13-2-1",
+    "question": "李一硕一共管理了多少支基金",
+    "db_table": "PublicFundDB.MF_FundArchives, PublicFundDB.MF_InvestAdvisorOutline"
+   },
+   {
+    "id": "tttt----30----13-2-2",
+    "question": "这些基金中规模最大的是哪一个？",
+    "db_table": "PublicFundDB.MF_FundArchives"
+   },
+   {
+    "id": "tttt----30----13-2-3",
+    "question": "这支基金的管理人法人是谁？",
+    "db_table": "PublicFundDB.MF_FundArchives, PublicFundDB.MF_InvestAdvisorOutline"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----31",
+  "team": [
+   {
+    "id": "tttt----31----14-2-1",
+    "question": "2019年12月12日哪家证券公司受到了处罚",
+    "db_table": "CreditDB.LC_ViolatiParty, InstitutionDB.LC_InstiArchive"
+   },
+   {
+    "id": "tttt----31----14-2-2",
+    "question": "他是多少家公司的股东？",
+    "db_table": "AStockShareholderDB.LC_MainSHListNew"
+   },
+   {
+    "id": "tttt----31----14-2-3",
+    "question": "哪家公司当年的借贷最多，共计多少？",
+    "db_table": "AStockEventsDB.LC_Credit"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----32",
+  "team": [
+   {
+    "id": "tttt----32----15-2-1",
+    "question": "深桑达最近一次停牌是什么时候？（时间回答XXXX-XX-XX）",
+    "db_table": "AStockMarketQuotesDB."
+   },
+   {
+    "id": "tttt----32----15-2-2",
+    "question": "当日哪家公司收盘价最高，最高价是多少？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----32----15-2-3",
+    "question": "是否创近一周的新高？（回答是或者否）",
+    "db_table": "AStockMarketQuotesDB.CS_StockPatterns"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----33",
+  "team": [
+   {
+    "id": "tttt----33----16-2-1",
+    "question": "深圳市桑达实业股份有限公司最近一次创上市以来的新高是在什么时候？（时间回答XXXX-XX-XX）",
+    "db_table": "为了回答这个问题，我们需要找到深圳市桑达实业股份有限公司的股票代码，然后查找其股票交易的历史数据，特别是最高价的历史记录。我们可以使用以下数据库和表：\n\n1. ConstantDB.SecuMain - 用于查找深圳市桑达实业股份有限公司的股票代码。\n2. AStockMarketQuotesDB.QT_DailyQuote - 用于获取股票的历史交易数据，包括每日的最高价。\n\n首先，我们需要在ConstantDB.SecuMain表中找到深圳市桑达实业股份有限公司的股票代码。然后，我们将在AStockMarketQuotesDB.QT_DailyQuote表中查找该股票代码对应的最高价记录，并确定创上市以来新高的日期。\n\n由于我无法直接访问数据库来执行查询，我无法提供确切的日期。但是，你可以使用上述数据库和表，通过编写相应的SQL查询来找到答案。如果你能够提供数据库的访问权限，我可以帮助你编写查询并获取结果。"
+   },
+   {
+    "id": "tttt----33----16-2-2",
+    "question": "当天涨幅超过10%股票有多少家？",
+    "db_table": "要回答这个问题，我们需要查询股票当天的涨跌幅信息。我们可以使用以下数据库和表：\n\n1. AStockMarketQuotesDB.QT_DailyQuote - 这个表包含股票每个交易日的收盘行情数据，包括涨跌幅等信息。\n\n你可以通过执行以下SQL查询来获取当天涨幅超过10%的股票数量：\n\n```sql\nSELECT COUNT(*)\nFROM AStockMarketQuotesDB.QT_DailyQuote\nWHERE 涨跌幅 > 10;\n```\n\n这将返回一个数字，表示当天涨幅超过10%的股票家数。请注意，你需要确保查询的是特定日期的数据，这通常通过在WHERE子句中指定日期来实现。由于我无法访问实时数据，我无法提供具体的数字。"
+   },
+   {
+    "id": "tttt----33----16-2-3",
+    "question": "这些公司中有哪些是连板的？",
+    "db_table": "要确定哪些公司股票是连板的，我们需要查看股票的历史行情数据，特别是连续涨停的情况。连板通常指的是股票连续几个交易日达到涨停价。我们可以使用以下数据库和表来查询这些信息：\n\n1. AStockMarketQuotesDB.CS_StockPatterns - 这个表可能包含股票的技术形态指标，包括连涨天数等信息。\n\n你可以通过执行以下SQL查询来获取连板股票的信息：\n\n```sql\nSELECT 股票代码, 连涨天数\nFROM AStockMarketQuotesDB.CS_StockPatterns\nWHERE 连涨天数 >= 2;\n```\n\n这个查询假设表中有一个字段叫做“连涨天数”，它可以告诉我们股票连续上涨的天数。如果连板定义为连续两个交易日涨停，那么你可以将条件设置为`连涨天数 >= 2`。如果你需要更具体的连板定义（比如连续3天或更多），你可以相应地调整条件。\n\n请注意，由于我无法访问实时数据，我无法提供具体的连板股票列表。你需要有数据库的访问权限，并且表结构中需要有记录连板信息的字段才能执行此查询。"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----34",
+  "team": [
+   {
+    "id": "tttt----34----17-2-1",
+    "question": "山东国瓷功能材料股份有限公司2021年9月23日开盘价是多少？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----34----17-2-2",
+    "question": "当天，外资占股多少？",
+    "db_table": "AStockShareholderDB.CS_ForeignHoldingSt"
+   },
+   {
+    "id": "tttt----34----17-2-3",
+    "question": "当年及20年该公司的预案一共增发了多少股？",
+    "db_table": "AStockFinanceDB.LC_AShareSeasonedNewIssue"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----35",
+  "team": [
+   {
+    "id": "tttt----35----18-3-1",
+    "question": "北京国枫律师事务所2020年见证多少家公司的年度股东大会？",
+    "db_table": "AStockEventsDB.LC_SMAttendInfo"
+   },
+   {
+    "id": "tttt----35----18-3-2",
+    "question": "这些公司中有哪些当年股东减持了的？",
+    "db_table": "AStockShareholderDB.LC_ShareTransfer"
+   },
+   {
+    "id": "tttt----35----18-3-3",
+    "question": "当年哪家公司的涨幅最大，达到了多少，保留4位小数？",
+    "db_table": "AStockMarketQuotesDB.QT_StockPerformance"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----36",
+  "team": [
+   {
+    "id": "tttt----36----19-2-1",
+    "question": "2019-01-04哪家公司主力净流入最多？",
+    "db_table": "AStockMarketQuotesDB.CS_StockCapFlowIndex"
+   },
+   {
+    "id": "tttt----36----19-2-2",
+    "question": "这家公司5日内平均成交额是多少，保留2位小数？",
+    "db_table": "AStockMarketQuotesDB.QT_StockPerformance"
+   },
+   {
+    "id": "tttt----36----19-2-3",
+    "question": "当日该指标超过该公司的一共有多少家？",
+    "db_table": "AStockMarketQuotesDB.CS_StockCapFlowIndex"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----37",
+  "team": [
+   {
+    "id": "tttt----37----20-2-1",
+    "question": "波司登在港股的股票代码是什么？",
+    "db_table": "HKStockDB.HK_StockArchives"
+   },
+   {
+    "id": "tttt----37----20-2-2",
+    "question": "他的注册资本是多少？",
+    "db_table": "HKStockDB.HK_StockArchives"
+   },
+   {
+    "id": "tttt----37----20-2-3",
+    "question": "他的员工人数哪年变动最大，前后差距是多少人？",
+    "db_table": "HKStockDB.HK_EmployeeChange"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----38",
+  "team": [
+   {
+    "id": "tttt----38----21-2-1",
+    "question": "天弘沪深300ETF联接A基金的管理经理是谁？",
+    "db_table": "PublicFundDB.MF_FundArchives,PublicFundDB.MF_InvestAdvisorOutline"
+   },
+   {
+    "id": "tttt----38----21-2-2",
+    "question": "所在基金公司管理了多少支基金？",
+    "db_table": "PublicFundDB.MF_FundArchives,PublicFundDB.MF_InvestAdvisorOutline"
+   },
+   {
+    "id": "tttt----38----21-2-3",
+    "question": "哪只基金20年最后一次分红的税前分红最高，有多少，保留2位小数？",
+    "db_table": "PublicFundDB.MF_Dividend"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----39",
+  "team": [
+   {
+    "id": "tttt----39----22-2-1",
+    "question": "JD.com, Inc.这家公司在美股英文名称是什么？",
+    "db_table": "USStockDB.US_CompanyInfo"
+   },
+   {
+    "id": "tttt----39----22-2-2",
+    "question": "他的证券简称是什么？",
+    "db_table": "USStockDB.US_SecuMain"
+   },
+   {
+    "id": "tttt----39----22-2-3",
+    "question": "20年该公司单日最高涨幅有多少",
+    "db_table": "USStockDB.US_DailyQuote"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----40",
+  "team": [
+   {
+    "id": "tttt----40----23-2-1",
+    "question": "携程网这家公司电话是多少？",
+    "db_table": "携程网这家公司的联系方式可能不是公开可查询的信息。通常，公司的联系方式可以通过其官方网站的联系我们页面、公司年报或者其他公开的商业信息查询服务来获取。如果需要联系携程网，建议直接访问携程网的官方网站，查找客户服务或者联系我们部分，那里通常会提供电话号码、电子邮件地址或者其他联系方式。如果您需要的是客服电话，携程网官网首页可能会有客服热线的明显标识。如果这些途径都无法找到您需要的信息，可能需要通过其他官方渠道或者商业信息查询服务来获取。"
+   },
+   {
+    "id": "tttt----40----23-2-2",
+    "question": "他是什么时候成立的？（时间回答XXXX-XX-XX）",
+    "db_table": "携程网（Ctrip.com International Ltd.）成立于1999年10月。"
+   },
+   {
+    "id": "tttt----40----23-2-3",
+    "question": "2020年9月18日这家公司的收盘价是多少",
+    "db_table": "很抱歉，我无法提供即时的股票市场数据或历史股票价格。要获取特定日期的携程网股票收盘价，您可以查看金融新闻网站、股票市场数据提供商或直接在股票交易所的官方网站上查询。通常，这些资源会提供历史股票价格的信息。如果您需要准确的历史数据，可能需要订阅金融服务或使用专业的财务数据平台。"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----41",
+  "team": [
+   {
+    "id": "tttt----41----24-2-1",
+    "question": "2020年成立的CN公司有多少家？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----41----24-2-2",
+    "question": "哪家公司（证券简称）上市的时间最晚，是什么时候？（时间回答XXXX-XX-XX）",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives, AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----41----24-2-3",
+    "question": "2019年的当天有多少家公司是上涨的？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----42",
+  "team": [
+   {
+    "id": "tttt----42----25-1-1",
+    "question": "比特矿业这家公司邮编多少？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----42----25-1-2",
+    "question": "上市了多少年",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----42----25-1-3",
+    "question": "这些年A股一共上市了多少家公司？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----43",
+  "team": [
+   {
+    "id": "tttt----43----26-1-1",
+    "question": "TOUR他是否已经退市了？（是或者否）",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote, AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----43----26-1-2",
+    "question": "这家公司19年最高收盘价是多少",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----43----26-1-3",
+    "question": "当天有多少家公司退市了",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote, AStockBasicInfoDB.LC_StockArchives"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----44",
+  "team": [
+   {
+    "id": "tttt----44----27-1-1",
+    "question": "2021年08月哪支基金税后分红最高",
+    "db_table": "PublicFundDB.MF_Dividend"
+   },
+   {
+    "id": "tttt----44----27-1-2",
+    "question": "这支基金是什么时候生效的（时间回答XXXX-XX-XX）",
+    "db_table": "PublicFundDB.MF_Dividend"
+   },
+   {
+    "id": "tttt----44----27-1-3",
+    "question": "基金所属公司的官网是什么",
+    "db_table": "PublicFundDB.MF_InvestAdvisorOutline"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----45",
+  "team": [
+   {
+    "id": "tttt----45----28-1-1",
+    "question": "易方达基金管理有限公司在19年成立了多少支基金？",
+    "db_table": "PublicFundDB.MF_FundArchives"
+   },
+   {
+    "id": "tttt----45----28-1-2",
+    "question": "哪支基金的规模最大？",
+    "db_table": "PublicFundDB.MF_FundArchives"
+   },
+   {
+    "id": "tttt----45----28-1-3",
+    "question": "这支基金20年最后一次分红派现比例多少钱？",
+    "db_table": "PublicFundDB.MF_Dividend"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----46",
+  "team": [
+   {
+    "id": "tttt----46----28-4-1",
+    "question": "南方基金管理股份有限公司在19年成立了多少支基金？",
+    "db_table": "PublicFundDB.MF_FundArchives"
+   },
+   {
+    "id": "tttt----46----28-4-2",
+    "question": "哪支基金的规模最大？",
+    "db_table": "PublicFundDB.MF_FundArchives"
+   },
+   {
+    "id": "tttt----46----28-4-3",
+    "question": "这支基金20年最后一次分红派现比例多少钱,保留2位小数？",
+    "db_table": "PublicFundDB.MF_Dividend"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----47",
+  "team": [
+   {
+    "id": "tttt----47----30-1-1",
+    "question": "中证指数有限公司发布了多少种指数？",
+    "db_table": "IndexDB.LC_IndexBasicInfo"
+   },
+   {
+    "id": "tttt----47----30-1-2",
+    "question": "这些指数包括了多少家公司？",
+    "db_table": "IndexDB.LC_IndexComponent"
+   },
+   {
+    "id": "tttt----47----30-1-3",
+    "question": "在2020年调入过的有多少家？",
+    "db_table": "IndexDB.LC_IndexComponent"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----48",
+  "team": [
+   {
+    "id": "tttt----48----1-2-1",
+    "question": "铜陵有色金属集团股份有限公司的法人代表是谁？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----48----1-2-2",
+    "question": "铜陵有色金属集团股份有限公司在什么时候成立的？回复时给我YYYY/MM/DD的格式",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----48----1-2-3",
+    "question": "铜陵有色金属集团股份有限公司的总经理是谁？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----49",
+  "team": [
+   {
+    "id": "tttt----49----3-2-1",
+    "question": "深科技的信披网址是哪个网站?",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----49----3-2-2",
+    "question": "该公司在过去的进行了几次非公开增发",
+    "db_table": "AStockFinanceDB.LC_AShareSeasonedNewIssue"
+   },
+   {
+    "id": "tttt----49----3-2-3",
+    "question": "最近一次非公开增发的数量是多少？",
+    "db_table": "AStockFinanceDB.LC_AShareSeasonedNewIssue"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----50",
+  "team": [
+   {
+    "id": "tttt----50----4-2-1",
+    "question": "福建坤彩材料科技股份有限公司的注册地在哪个省份？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----50----4-2-2",
+    "question": "该公司2020年年度报告中，未调整的合并资产负债表中提到的资产总计是多少？",
+    "db_table": "AStockFinanceDB.LC_BalanceSheetAll"
+   },
+   {
+    "id": "tttt----50----4-2-3",
+    "question": "他的2020年年度报告中，未调整的母公司资产负债表显示的负债合计是多少？",
+    "db_table": "AStockFinanceDB.LC_BalanceSheetAll"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----51",
+  "team": [
+   {
+    "id": "tttt----51----5-2-1",
+    "question": "海信视像科技股份有限公司在什么时候成立的，XXXX-XX-XX？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----51----5-2-2",
+    "question": "该公司在2021年的半年度报告中未调整的**合并报表**营业总成本是多少？",
+    "db_table": "AStockFinanceDB.LC_BalanceSheetAll"
+   },
+   {
+    "id": "tttt----51----5-2-3",
+    "question": "该公司在2021年的半年度报告中未调整的**合并报表**净利润是多少？",
+    "db_table": "AStockFinanceDB.LC_IncomeStatementAll"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----52",
+  "team": [
+   {
+    "id": "tttt----52----6-2-1",
+    "question": "申能股份在过去一共接待了几次调研？",
+    "db_table": "AStockEventsDB.LC_InvestorRa"
+   },
+   {
+    "id": "tttt----52----6-2-2",
+    "question": "最近一次调研是什么时候？",
+    "db_table": "AStockEventsDB.LC_InvestorRa"
+   },
+   {
+    "id": "tttt----52----6-2-3",
+    "question": "最近一次调研的地点是哪？",
+    "db_table": "AStockEventsDB.LC_InvestorRa"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----53",
+  "team": [
+   {
+    "id": "tttt----53----7-2-1",
+    "question": "水晶光电实施完成的员工持股计划有几个？",
+    "db_table": "AStockShareholderDB.LC_ESOPSummary"
+   },
+   {
+    "id": "tttt----53----7-2-2",
+    "question": "最近一次完成的员工持股计划，股票规模上限和资金总额上限是多少",
+    "db_table": "AStockShareholderDB.LC_ESOP"
+   },
+   {
+    "id": "tttt----53----7-2-3",
+    "question": "该计划是否是分期实施的？如果实施回答A，没有实施回答B",
+    "db_table": "AStockShareholderDB.LC_ESOP"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----54",
+  "team": [
+   {
+    "id": "tttt----54----8-2-1",
+    "question": "普洛药业在2020-11-25的最高价和最低价是多少？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----54----8-2-2",
+    "question": "当天换手率是多少,保留2位小数？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----54----8-2-3",
+    "question": "年化夏普比率和波动率（日步长）是多少,保留2位小数？",
+    "db_table": "AStockMarketQuotesDB.QT_StockPerformance"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----55",
+  "team": [
+   {
+    "id": "tttt----55----9-2-1",
+    "question": "截止2021-06-17上海建工的近一周成交金额（万元）是多少？",
+    "db_table": "AStockMarketQuotesDB.CS_StockCapFlowIndex"
+   },
+   {
+    "id": "tttt----55----9-2-2",
+    "question": "近一个月的成交金额（万元）是多少？",
+    "db_table": "AStockMarketQuotesDB.CS_StockCapFlowIndex"
+   },
+   {
+    "id": "tttt----55----9-2-3",
+    "question": "与月成交均价相比，近一周的成交均价是高还是低？这两者具体是多少？保留两位小数",
+    "db_table": "AStockMarketQuotesDB.CS_StockCapFlowIndex, AStockMarketQuotesDB.QT_DailyQuote"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----56",
+  "team": [
+   {
+    "id": "tttt----56----10-2-1",
+    "question": "建元信托股份有限公司十大股东的类型有哪些？",
+    "db_table": "AStockShareholderDB.LC_SHTypeClassifi"
+   },
+   {
+    "id": "tttt----56----10-2-2",
+    "question": "2020年年度报告中，该公司的最大股东是谁，他持有多少股份？",
+    "db_table": "AStockShareholderDB.LC_MainSHListNew, AStockFinanceDB.LC_AShareSeasonedNewIssue"
+   },
+   {
+    "id": "tttt----56----10-2-3",
+    "question": "2020年年度报告中,该公司的国有股东持股总和是多少？",
+    "db_table": "AStockShareholderDB.LC_NationalStockHoldSt"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----57",
+  "team": [
+   {
+    "id": "tttt----57----31-3-1",
+    "question": "2020年最后一个交易日是哪一天？用XXXX年XX月XX日回复我",
+    "db_table": "2020年最后一个交易日是12月31日。"
+   },
+   {
+    "id": "tttt----57----31-3-2",
+    "question": "鱼跃医疗在2020年末的总市值是多少元？",
+    "db_table": "很抱歉，我无法提供实时数据或特定日期的市场数据，因为我的知识截止日期是2023年4月，且我无法访问互联网以获取最新信息。要获取鱼跃医疗在2020年末的总市值，您可以查看该公司的历史财务报告或使用金融信息服务平台查询该日期的市场数据。通常，这些信息可以在公司的年度报告、证券交易所的官方网站或金融新闻网站上找到。如果您需要准确的历史数据，建议您直接查阅相关的历史财务记录或联系专业的金融服务机构。"
+   },
+   {
+    "id": "tttt----57----31-3-3",
+    "question": "鱼跃医疗在2020年末回看近12个月成交金额是多少元？",
+    "db_table": "很抱歉，我无法提供实时数据或特定日期的市场数据，因为我的知识截止日期是2023年4月，且我无法访问互联网以获取最新信息。要获取鱼跃医疗在2020年末回看近12个月的成交金额，您可以查看该公司的历史财务报告或使用金融信息服务平台查询该日期的市场数据。通常，这些信息可以在公司的年度报告、证券交易所的官方网站或金融新闻网站上找到。如果您需要准确的历史数据，建议您直接查阅相关的历史财务记录或联系专业的金融服务机构。"
+   },
+   {
+    "id": "tttt----57----31-3-4",
+    "question": "帮我算一下，鱼跃医疗 在2020年末的12个月总成交金额占总市值的比值是多少？保留2位小数",
+    "db_table": "很抱歉，但作为一个AI，我无法直接访问实时数据或特定公司的历史交易数据。要计算鱼跃医疗在2020年末的12个月总成交金额占总市值的比值，您需要获取以下数据：\n\n1. 鱼跃医疗在2020年末的总市值。\n2. 鱼跃医疗在2020年内（回看近12个月）的总成交金额。\n\n一旦您有了这些数据，您可以使用以下公式来计算比值：\n\n\\[ \\text{比值} = \\left( \\frac{\\text{12个月总成交金额}}{\\text{2020年末总市值}} \\right) \\times 100\\% \\]\n\n计算出的结果将是一个百分比，表示12个月的总成交金额占2020年末总市值的比例。如果您提供具体的数据，我可以帮助您进行计算。"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----58",
+  "team": [
+   {
+    "id": "tttt----58----32-2-1",
+    "question": "2021年1月11日，正常交易且跳空低开的股票一共有几只？",
+    "db_table": "AStockMarketQuotesDB.CS_StockPatterns"
+   },
+   {
+    "id": "tttt----58----32-2-2",
+    "question": "其中振幅最大的是哪个股票？",
+    "db_table": "AStockMarketQuotesDB.CS_StockPatterns, AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----58----32-2-3",
+    "question": "这只股票主力净流入量是多少？",
+    "db_table": "AStockMarketQuotesDB.CS_StockPatterns, AStockMarketQuotesDB.CS_StockCapFlowIndex"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----59",
+  "team": [
+   {
+    "id": "tttt----59----33-2-1",
+    "question": "2019下半年，成交量创近一季度新高的证券数量最多的交易日是哪一天？",
+    "db_table": "AStockMarketQuotesDB.CS_TurnoverVolTecIndex"
+   },
+   {
+    "id": "tttt----59----33-2-2",
+    "question": "那一天成交量创近一季度新高的证券数量有多少？",
+    "db_table": "AStockMarketQuotesDB.CS_TurnoverVolTecIndex"
+   },
+   {
+    "id": "tttt----59----33-2-3",
+    "question": "那一天上涨和下跌的证券数量分别是？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----60",
+  "team": [
+   {
+    "id": "tttt----60----33-5-1",
+    "question": "2021下半年，成交量创近一季度新高的证券数量最多的交易日是哪一天，XXXX年XX月XX日？",
+    "db_table": "AStockMarketQuotesDB.CS_TurnoverVolTecIndex, AStockMarketQuotesDB.QT_TradingDayNew"
+   },
+   {
+    "id": "tttt----60----33-5-2",
+    "question": "那一天成交量创近一季度新高的证券数量有多少？",
+    "db_table": "AStockMarketQuotesDB.CS_TurnoverVolTecIndex"
+   },
+   {
+    "id": "tttt----60----33-5-3",
+    "question": "那一天上涨和下跌的证券数量分别是？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----61",
+  "team": [
+   {
+    "id": "tttt----61----34-3-1",
+    "question": "2020上半年共上市多少只基金？",
+    "db_table": "AStockFinanceDB.LC_AShareSeasonedNewIssue, AStockFinanceDB.LC_ASharePlacement"
+   },
+   {
+    "id": "tttt----61----34-3-2",
+    "question": "其中设立规模最大的基金是？(披露名称按证监会官网命名)",
+    "db_table": "AStockFinanceDB.LC_AShareSeasonedNewIssue, AStockFinanceDB.LC_ASharePlacement"
+   },
+   {
+    "id": "tttt----61----34-3-3",
+    "question": "其中数量最多的基金类别是什么，有多少只？",
+    "db_table": "AStockFinanceDB.LC_AShareSeasonedNewIssue, AStockFinanceDB.LC_ASharePlacement"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----62",
+  "team": [
+   {
+    "id": "tttt----62----35-1-1",
+    "question": "博时基金公司成立于（XXXX年XX月XX日）？",
+    "db_table": "PublicFundDB.MF_FundArchives"
+   },
+   {
+    "id": "tttt----62----35-1-2",
+    "question": "比博时基金成立更早的基金公司(简称)有哪些？",
+    "db_table": "PublicFundDB.MF_FundArchives"
+   },
+   {
+    "id": "tttt----62----35-1-3",
+    "question": "和博时基金属于同一地区的基金公司(简称)有哪些？",
+    "db_table": "PublicFundDB.MF_FundArchives"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----63",
+  "team": [
+   {
+    "id": "tttt----63----36-1-1",
+    "question": "最新更新的2019年度报告中，机构持有无限售流通A股数量合计最多的公司简称是？",
+    "db_table": "AStockShareholderDB.LC_StockHoldingSt"
+   },
+   {
+    "id": "tttt----63----36-1-2",
+    "question": "在这份报告中，该公司机构持有无限售流通A股比例合计是多少，2位小数？",
+    "db_table": "AStockShareholderDB.LC_StockHoldingSt"
+   },
+   {
+    "id": "tttt----63----36-1-3",
+    "question": "该公司前十大股东持股比例合计是多少，2位小数？",
+    "db_table": "AStockShareholderDB.LC_MainSHListNew"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----64",
+  "team": [
+   {
+    "id": "tttt----64----36-4-1",
+    "question": "最新更新的2021年度报告中，机构持有无限售流通A股数量合计最多的公司简称是？",
+    "db_table": "AStockFinanceDB.LC_AShareSeasonedNewIssue, AStockFinanceDB.LC_ASharePlacement, AStockShareholderDB.LC_StockHoldingSt"
+   },
+   {
+    "id": "tttt----64----36-4-2",
+    "question": "在这份报告中，该公司机构持有无限售流通A股比例合计是多少，保留2位小数？",
+    "db_table": "AStockShareholderDB.LC_StockHoldingSt"
+   },
+   {
+    "id": "tttt----64----36-4-3",
+    "question": "该公司前十大股东持股比例合计是多少？",
+    "db_table": "AStockShareholderDB.LC_MainSHListNew, AStockShareholderDB.LC_StockHoldingSt"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----65",
+  "team": [
+   {
+    "id": "tttt----65----37-2-1",
+    "question": "安琪酵母在2020年全年的最高收盘价是多少，出现在哪一天（XXXX年XX月XX日）？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----65----37-2-2",
+    "question": "当天成交量是否创近一月以来新高？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote, AStockMarketQuotesDB.CS_TurnoverVolTecIndex"
+   },
+   {
+    "id": "tttt----65----37-2-3",
+    "question": "连续放量天数为多少？",
+    "db_table": "AStockMarketQuotesDB.CS_TurnoverVolTecIndex"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----66",
+  "team": [
+   {
+    "id": "tttt----66----37-5-1",
+    "question": "安琪酵母在2021年全年的最高收盘价是多少，出现在哪一天，XXXX年XX月XX日？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----66----37-5-2",
+    "question": "当天成交量是否创近一月以来新高？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote, AStockMarketQuotesDB.CS_TurnoverVolTecIndex"
+   },
+   {
+    "id": "tttt----66----37-5-3",
+    "question": "连续放量天数为多少？",
+    "db_table": "AStockMarketQuotesDB.CS_TurnoverVolTecIndex"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----67",
+  "team": [
+   {
+    "id": "tttt----67----38-2-1",
+    "question": "厦门钨业在2019年全年的最低收盘价是多少，出现在哪一天，XXXX年XX月XX日？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----67----38-2-2",
+    "question": "厦门钨业在当天的VRSI量相对强弱是多少，保留4位小数？",
+    "db_table": "AStockMarketQuotesDB.CS_TurnoverVolTecIndex"
+   },
+   {
+    "id": "tttt----67----38-2-3",
+    "question": "厦门钨业已连跌几天？",
+    "db_table": "AStockMarketQuotesDB.CS_StockPatterns"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----68",
+  "team": [
+   {
+    "id": "tttt----68----38-5-1",
+    "question": "厦门钨业在2021年全年的最低收盘价是多少，出现在哪一天，XXXX年XX月XX日？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----68----38-5-2",
+    "question": "厦门钨业在当天的VRSI量相对强弱是多少，保留4位小数？",
+    "db_table": "AStockMarketQuotesDB.CS_TurnoverVolTecIndex"
+   },
+   {
+    "id": "tttt----68----38-5-3",
+    "question": "厦门钨业已连跌几天？",
+    "db_table": "AStockMarketQuotesDB.CS_StockPatterns"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----69",
+  "team": [
+   {
+    "id": "tttt----69----39-2-1",
+    "question": "芯片概念概念板块属于什么2级概念？",
+    "db_table": "AStockIndustryDB.LC_ConceptList"
+   },
+   {
+    "id": "tttt----69----39-2-2",
+    "question": "截止2023年末,该2级概念下一共有几个未终止的概念板块？",
+    "db_table": "AStockIndustryDB.LC_ConceptList"
+   },
+   {
+    "id": "tttt----69----39-2-3",
+    "question": "芯片概念概念板块的英文名称是什么？",
+    "db_table": "AStockIndustryDB.LC_ConceptList"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----70",
+  "team": [
+   {
+    "id": "tttt----70----40-2-1",
+    "question": "按2021年末新版申万行业分类，现在杰瑞股份属于什么申万二级行业？",
+    "db_table": "AStockIndustryDB.LC_ExgIndustry"
+   },
+   {
+    "id": "tttt----70----40-2-2",
+    "question": "2021年末，该申万二级行业中有几个股票？",
+    "db_table": "AStockIndustryDB.LC_ExgIndustry"
+   },
+   {
+    "id": "tttt----70----40-2-3",
+    "question": "2021年末，该股票的总市值占二级行业总市值百分之多少（四舍五入保留2位小数）？",
+    "db_table": "AStockIndustryDB.LC_ExgIndustry, AStockMarketQuotesDB.QT_DailyQuote"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----71",
+  "team": [
+   {
+    "id": "tttt----71----41-2-1",
+    "question": "2021年末，按新版申万行业分类，现在均胜电子属于什么申万一级行业？",
+    "db_table": "AStockIndustryDB.LC_ExgIndustry"
+   },
+   {
+    "id": "tttt----71----41-2-2",
+    "question": "2021年末，该一级行业中有几个股票？",
+    "db_table": "AStockIndustryDB.LC_ExgIndustry"
+   },
+   {
+    "id": "tttt----71----41-2-3",
+    "question": "2021年末，该股票的A股流通市值占一级行业流通市值百分之多少（四舍五入保留2位小数）？",
+    "db_table": "AStockIndustryDB.LC_ExgIndustry, AStockShareholderDB.LC_StockHoldingSt"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----72",
+  "team": [
+   {
+    "id": "tttt----72----29-2-1",
+    "question": "2020-07-02风电零部件行业的总市值是多少(元)？",
+    "db_table": "由于您提供的信息截止于2023年4月，且没有提供具体的数据库和数据表来查询实时数据，我无法直接提供2020年7月2日风电零部件行业的总市值。通常，这种信息需要通过金融数据服务提供商，如彭博、路透、Wind信息或同花顺等，来获取实时的市场数据。\n\n如果您有访问这些服务的权限，您可以通过以下步骤来查询：\n\n1. 选择一个金融数据服务平台。\n2. 登录并选择市场数据查询功能。\n3. 选择股票市场数据。\n4. 根据行业分类找到风电零部件行业。\n5. 查询2020年7月2日的行业总市值。\n\n如果您没有访问这些服务的权限，您可以尝试以下方法：\n\n- 查找公开的行业报告或市场分析，这些报告可能包含了您需要的信息。\n- 访问证券交易所的官方网站，查找相关的公告和行业数据。\n- 查阅财经新闻或分析文章，这些资源有时会提供行业总市值的估计。\n\n请注意，即使您找到了数据，也可能需要一些计算来得到确切的行业总市值，因为市值是根据当天收盘价计算的，并且可能会随着时间和市场情况的变化而变化。"
+   },
+   {
+    "id": "tttt----72----29-2-2",
+    "question": "其中A股流通市值是多少（元）？",
+    "db_table": "很抱歉，但作为AI，我无法提供实时或历史的市场数据，因为我没有接入实时数据库或外部系统的能力。获取特定日期A股风电零部件行业的流通市值，您通常需要通过金融数据服务平台，如Wind、同花顺、东方财富等，这些平台能够提供详细的市场数据和历史记录。\n\n如果您需要查询这一数据，您可以按照以下步骤操作：\n\n1. 访问您选择的金融数据服务平台。\n2. 登录并导航至市场数据或股票数据部分。\n3. 选择您感兴趣的日期（2020年7月2日）。\n4. 搜索或筛选出风电零部件行业。\n5. 查看该行业的总流通市值。\n\n请注意，流通市值是指市场上可以自由交易的股票的市值，不包括公司内部持有的股份和受限的股份。如果您没有访问这些金融数据服务平台的权限，您可能需要寻找公开的报告或新闻文章，这些资源有时会提供行业总市值的估计。"
+   },
+   {
+    "id": "tttt----72----29-2-3",
+    "question": "下一个交易日的A股流通市值是多少（元）？",
+    "db_table": "很抱歉，但作为AI，我无法提供实时或未来的市场数据。要获取下一个交易日的A股风电零部件行业的流通市值，您需要等到下一个交易日结束，然后通过金融数据服务平台查询。这些平台能够提供详细的市场数据和历史记录。\n\n如果您需要查询这一数据，您可以按照以下步骤操作：\n\n1. 访问您选择的金融数据服务平台。\n2. 登录并导航至市场数据或股票数据部分。\n3. 选择您感兴趣的日期（下一个交易日）。\n4. 搜索或筛选出风电零部件行业。\n5. 查看该行业的总流通市值。\n\n请注意，流通市值是指市场上可以自由交易的股票的市值，不包括公司内部持有的股份和受限的股份。如果您没有访问这些金融数据服务平台的权限，您可能需要寻找公开的报告或新闻文章，这些资源有时会提供行业总市值的估计。"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----73",
+  "team": [
+   {
+    "id": "tttt----73----17-2-1",
+    "question": "软通动力在2019年报酬总额和领取报酬的管理层人数是多少？",
+    "db_table": "AStockOperationsDB.LC_RewardStat"
+   },
+   {
+    "id": "tttt----73----17-2-2",
+    "question": "其中前三名董事的报酬是多少？",
+    "db_table": "AStockOperationsDB.LC_RewardStat"
+   },
+   {
+    "id": "tttt----73----17-2-3",
+    "question": "该公司2020年报酬总额是多少？与2019年相比增加还是减少？",
+    "db_table": "AStockOperationsDB.LC_RewardStat"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----74",
+  "team": [
+   {
+    "id": "tttt----74----18-2-1",
+    "question": "天弘增利短债C的基金管理人是谁？",
+    "db_table": "PublicFundDB.MF_FundArchives,PublicFundDB.MF_InvestAdvisorOutline"
+   },
+   {
+    "id": "tttt----74----18-2-2",
+    "question": "该基金的运作方式是什么？",
+    "db_table": "PublicFundDB.MF_FundArchives"
+   },
+   {
+    "id": "tttt----74----18-2-3",
+    "question": "该基金的投资风格是什么？",
+    "db_table": "PublicFundDB.MF_FundArchives"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----75",
+  "team": [
+   {
+    "id": "tttt----75----42-2-1",
+    "question": "截止至中国软件2021年Q4季度，研发投入总额是多少？（调整后的合并报表）",
+    "db_table": "AStockFinanceDB.LC_IntAssetsDetail"
+   },
+   {
+    "id": "tttt----75----42-2-2",
+    "question": "截止至中国软件2021年Q4季度，研发投入占营业收入比例是多少？",
+    "db_table": "AStockFinanceDB.LC_IntAssetsDetail"
+   },
+   {
+    "id": "tttt----75----42-2-3",
+    "question": "请根据中国软件截止至2021年Q4季度的研发人员数量和占比推算公司总人数（计算方式：总人数 = 研发人员数量 ÷ (研发人员占比 ÷ 100)，结果取整）。",
+    "db_table": "AStockOperationsDB.LC_Staff"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----76",
+  "team": [
+   {
+    "id": "tttt----76----43-2-1",
+    "question": "陆家嘴在2019年的最大借贷金额是多少？",
+    "db_table": "AStockEventsDB.LC_Credit"
+   },
+   {
+    "id": "tttt----76----43-2-2",
+    "question": "陆家嘴在2019年的单次首次借贷金额最高的借款方是谁？其单次首次借贷金额是多少？",
+    "db_table": "AStockEventsDB.LC_Credit"
+   },
+   {
+    "id": "tttt----76----43-2-3",
+    "question": "陆家嘴在2019年最新的借贷事件是什么？给我的答案包括事件内容、借贷方、出借方和借贷金额等信息。",
+    "db_table": "AStockEventsDB.LC_Credit"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----77",
+  "team": [
+   {
+    "id": "tttt----77----44-2-1",
+    "question": "亿帆医药在2020年的最大担保金额是多少？",
+    "db_table": "AStockEventsDB.LC_Warrant"
+   },
+   {
+    "id": "tttt----77----44-2-2",
+    "question": "亿帆医药在2020年的最大担保金额涉及的担保方是谁？担保金额是多少？",
+    "db_table": "AStockEventsDB.LC_Warrant"
+   },
+   {
+    "id": "tttt----77----44-2-3",
+    "question": "亿帆医药在2020年最新的担保事件是什么？答案包括事件内容、担保方、被担保方和担保金额信息。",
+    "db_table": "AStockEventsDB.LC_Warrant"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----78",
+  "team": [
+   {
+    "id": "tttt----78----45-2-1",
+    "question": "许继电气在2021年发布了多少条重大事项公告？",
+    "db_table": "AStockEventsDB.LC_Warrant,AStockEventsDB.LC_Credit,AStockEventsDB.LC_SuitArbitration,AStockEventsDB.LC_EntrustInv,AStockEventsDB.LC_Regroup,AStockEventsDB.LC_MajorContract,AStockEventsDB.LC_InvestorRa,AStockEventsDB.LC_InvestorDetail"
+   },
+   {
+    "id": "tttt----78----45-2-2",
+    "question": "许继电气在2021年签订的涉及金额最大的合同标的是哪个？金额是多少？",
+    "db_table": "AStockEventsDB.LC_MajorContract"
+   },
+   {
+    "id": "tttt----78----45-2-3",
+    "question": "许继电气在2021年签订金额最大的合同是否发生在重大事项公告之后？签订的合同日期和重大事项公告日期分别是什么（XXXX-XX-XX）？",
+    "db_table": "AStockEventsDB.LC_MajorContract,AStockEventsDB.LC_Warrant,AStockEventsDB.LC_Credit,AStockEventsDB.LC_SuitArbitration,AStockEventsDB.LC_EntrustInv,AStockEventsDB.LC_Regroup"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----79",
+  "team": [
+   {
+    "id": "tttt----79----46-2-1",
+    "question": "美亚光电在2021年的减持计划中，最大可减持股份数量（减持股份数量上限(股)）与最小可减持股份数量（减持股份数量下限(股)）的差距是多少？",
+    "db_table": "AStockShareholderDB.LC_TransferPlan"
+   },
+   {
+    "id": "tttt----79----46-2-2",
+    "question": "美亚光电在2021年的减持计划中涉及了多少名股东？",
+    "db_table": "AStockShareholderDB.LC_TransferPlan"
+   },
+   {
+    "id": "tttt----79----46-2-3",
+    "question": "美亚光电在2021年的减持计划中，哪位股东的最大减持比例最高？",
+    "db_table": "AStockShareholderDB.LC_TransferPlan"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----80",
+  "team": [
+   {
+    "id": "tttt----80----1-2-1 ",
+    "question": "利亚德的证券代码和ISIN代码是什么？",
+    "db_table": "AStockBasicInfoDB.LC_StockArchives,ConstantDB.SecuMain"
+   },
+   {
+    "id": "tttt----80----1-2-2 ",
+    "question": "该公司最新的证监会行业代码是多少？该行业下有多少家上市公司？",
+    "db_table": "AStockIndustryDB.LC_ExgIndustry,AStockIndustryDB.LC_StockIndustry"
+   },
+   {
+    "id": "tttt----80----1-2-3 ",
+    "question": "利亚德最近三次投资者调研的具体时间(xxxx-xx-xx的格式)、地点和参与机构数量分别是多少？",
+    "db_table": "AStockEventsDB.LC_InvestorDetail"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----81",
+  "team": [
+   {
+    "id": "tttt----81----2-2-1 ",
+    "question": "隧道股份在2021年底有多少个国家队持股股东？",
+    "db_table": "AStockShareholderDB.LC_NationalStockHoldSt"
+   },
+   {
+    "id": "tttt----81----2-2-2 ",
+    "question": "这些股东的持有A股总数是多少？",
+    "db_table": "AStockShareholderDB.LC_NationalStockHoldSt"
+   },
+   {
+    "id": "tttt----81----2-2-3 ",
+    "question": "在这些股东中，持股比例最高的是哪个股东？持股比例是多少？（保留2位小数）",
+    "db_table": "AStockShareholderDB.LC_NationalStockHoldSt"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----82",
+  "team": [
+   {
+    "id": "tttt----82----3-2-1 ",
+    "question": "中国宝安2021年底的员工总数是多少？其中技术人员占比是多少？（保留2位小数）",
+    "db_table": "AStockOperationsDB.LC_Staff"
+   },
+   {
+    "id": "tttt----82----3-2-2 ",
+    "question": "在该公司的技术人员中，具有硕士及以上学历（硕士+博士）的人员占比是多少？（保留2位小数）",
+    "db_table": "AStockOperationsDB.LC_Staff"
+   },
+   {
+    "id": "tttt----82----3-2-3 ",
+    "question": "该公司的人才结构是否合理？请分析技术人员、生产人员、销售人员的比例构成。",
+    "db_table": "AStockOperationsDB.LC_Staff"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----83",
+  "team": [
+   {
+    "id": "tttt----83----4-2-1 ",
+    "question": "海信家电在2021-12-24这天，小单、中单和大单的净流入情况如何？净流入额分别是多少？(单位：元)",
+    "db_table": "AStockMarketQuotesDB.CS_StockCapFlowIndex"
+   },
+   {
+    "id": "tttt----83----4-2-2 ",
+    "question": "基于上述资金流向数据，大单对比小单的净买入率(额)差值是多少个百分点？这种资金流向组合反映了什么现象？ (保留两位小数)",
+    "db_table": "由于您提供的信息中并未包含具体的数值数据，我无法直接计算出大单对比小单的净买入率(额)差值。通常，净买入率是指大单净买入额与小单净买入额之差占小单净买入额的比例，计算公式如下：\n\n净买入率差值 = (大单净买入额 - 小单净买入额) / 小单净买入额 * 100%\n\n这个比率可以告诉我们大单与小单在资金流入方面的相对强度。如果差值是正数，说明大单的净买入额大于小单的净买入额，反映出大资金在积极买入，可能意味着市场上有较强的上涨动力或者大资金对某些股票特别看好。如果差值是负数，则相反，说明小单的净买入额大于大单的净买入额，可能反映出市场参与者的谨慎态度或者大资金在撤离。\n\n要得到具体的数值，您需要提供2021-12-24那天海信家电的大单和小单的净流入额数据。如果您能提供这些数据，我可以帮您计算净买入率差值。"
+   },
+   {
+    "id": "tttt----83----4-2-3 ",
+    "question": "请结合该股票所属的概念板块，2021-12-24当天其所属概念板块的大单小单净买入率差值是多少个百分点？",
+    "db_table": "很抱歉，但作为AI，我无法直接访问实时数据库或历史数据来提供具体的股票市场数据。要计算海信家电及其所属概念板块在2021-12-24当天的大单小单净买入率差值，您需要提供那天海信家电及其所属概念板块的大单和小单的净流入额数据。\n\n如果您有这些数据，您可以按照以下步骤进行计算：\n\n1. 计算海信家电及其所属概念板块的大单净买入额。\n2. 计算海信家电及其所属概念板块的小单净买入额。\n3. 使用以下公式计算大单对比小单的净买入率差值：\n\n净买入率差值 = (大单净买入额 - 小单净买入额) / 小单净买入额 * 100%\n\n请将计算结果保留两位小数。\n\n如果您能够提供具体的数据，我可以帮助您完成计算。如果没有数据，您可能需要访问金融信息服务平台，如Wind、东方财富、同花顺等，以获取所需的历史交易数据。"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----84",
+  "team": [
+   {
+    "id": "tttt----84----5-2-1 ",
+    "question": "永泰能源在2020年发生了几次业务范围变更？请列出每次变更的具体日期（xxxx-xx-xx的格式）",
+    "db_table": "AStockBasicInfoDB.LC_Business"
+   },
+   {
+    "id": "tttt----84----5-2-2 ",
+    "question": "在2020年永泰能源的业务变更日期前后30天内，公司发生了多少次信用评级相关事件？请列出具体的事件日期。",
+    "db_table": "AStockEventsDB.LC_Credit"
+   },
+   {
+    "id": "tttt----84----5-2-3 ",
+    "question": "比较永泰能源在2019年和2020年的业务变更次数和信用事件次数，计算2020年相对于2019年的变化率。哪个指标的变化更大？",
+    "db_table": "AStockBasicInfoDB.LC_Business, AStockEventsDB.LC_Credit"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----85",
+  "team": [
+   {
+    "id": "tttt----85----6-2-1 ",
+    "question": "鹏华基金在2019年成立了多少只基金？这些基金的总募集规模是多少？(单位：元)",
+    "db_table": "PublicFundDB.MF_FundArchives"
+   },
+   {
+    "id": "tttt----85----6-2-2 ",
+    "question": "在上述成立的基金中，有多少只是股票型基金？这些股票型基金的平均募集规模是多少？(单位：元)",
+    "db_table": "PublicFundDB.MF_FundArchives"
+   },
+   {
+    "id": "tttt----85----6-2-3 ",
+    "question": "请分析该公司2019年新成立的股票型基金中，采用被动投资策略(指数型)的基金占比是多少？这一比例相比同期其他基金公司是高还是低？",
+    "db_table": "PublicFundDB.MF_FundArchives, AStockFinanceDB.LC_AShareSeasonedNewIssue"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----86",
+  "team": [
+   {
+    "id": "tttt----86----7-2-1 ",
+    "question": "安琪酵母在2021年12月31日的股东总户数是多少？其中A股股东户均持股数是多少股？",
+    "db_table": "AStockShareholderDB.LC_SHNumber,AStockShareholderDB.LC_MainSHListNew"
+   },
+   {
+    "id": "tttt----86----7-2-2 ",
+    "question": "基于上述股东数据，该公司A股户均持股数相比上一季度的变化率是多少(四舍五入到小数点后两位)？这种变化反映了什么现象？",
+    "db_table": "AStockShareholderDB.LC_SHNumber"
+   },
+   {
+    "id": "tttt----86----7-2-3 ",
+    "question": "该公司2021年的管理层总薪酬是多少，所有公司平均水平是多少？该公司管理层薪酬与行业平均水平的差异率是多少？ (四舍五入保留两位小数)",
+    "db_table": "AStockOperationsDB.LC_RewardStat,AStockFinanceDB.LC_MainOperIncome"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----87",
+  "team": [
+   {
+    "id": "tttt----87----8-2-1 ",
+    "question": "健康元药业集团股份有限公司在2020-2021年期间进行了几次股份回购？每次回购的金额(单位：万元，保留两位小数)和股数分别是多少？",
+    "db_table": "AStockShareholderDB.LC_Buyback,AStockShareholderDB.LC_BuybackAttach"
+   },
+   {
+    "id": "tttt----87----8-2-2 ",
+    "question": "最近一次回购的主要目的是什么？是否涉及股权激励计划？",
+    "db_table": "AStockShareholderDB.LC_Buyback"
+   },
+   {
+    "id": "tttt----87----8-2-3 ",
+    "question": "该公司在2020-2021年期间的回购总金额在A股上市公司中排名如何？",
+    "db_table": "AStockShareholderDB.LC_Buyback,AStockShareholderDB.LC_BuybackAttach"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----88",
+  "team": [
+   {
+    "id": "tttt----88----9-2-1 ",
+    "question": "伟明环保最近一期员工持股计划的参与总人数是多少？其中管理层参与人数占比(四舍五入精确到小数点后两位，并以百分比形式表示)是多少？",
+    "db_table": "AStockShareholderDB.LC_ESOP, AStockShareholderDB.LC_Staff"
+   },
+   {
+    "id": "tttt----88----9-2-2 ",
+    "question": "该期员工持股计划的股票来源是什么？计划购买股票数量是多少股？",
+    "db_table": "AStockShareholderDB.LC_ESOP, AStockOperationsDB.LC_Staff"
+   },
+   {
+    "id": "tttt----88----9-2-3 ",
+    "question": "对比伟明环保与在证券市场和证券类别相同的公司的员工持股计划,分析:(1)在证券市场和证券类别相同的公司的员工持股计划的数量(2)该公司的持股计划规模处于什么水平(精确到小数点后两位，并以百分比形式表示)?(3)管理层参与人数比例处于什么水平(精确到小数点后两位，并以百分比形式表示)?(4)锁定期长度处于什么水平(精确到小数点后两位，并以百分比形式表示)?",
+    "db_table": "AStockShareholderDB.LC_ESOP, AStockShareholderDB.LC_Staff, AStockBasicInfoDB.LC_StockArchives, AStockMarketQuotesDB.CS_StockPerformance"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----89",
+  "team": [
+   {
+    "id": "tttt----89----10-2-1 ",
+    "question": "光环新网(代码:300383)的年度报告中在2021年年末的机构持股比例是多少(四舍五入精确到小数点后两位，并以百分比形式表示)？其中基金持股比例是多少(四舍五入精确到小数点后两位，并以百分比形式表示)？",
+    "db_table": "AStockFinanceDB.LC_StockHoldingSt"
+   },
+   {
+    "id": "tttt----89----10-2-2 ",
+    "question": "非基金定报，以最后一次统计日期为准，该公司2021年全年(第一季度末到第四季度末)机构持股比例分别是多少(四舍五入精确到小数点后两位，并以百分比形式表示)？",
+    "db_table": "AStockFinanceDB.LC_StockHoldingSt"
+   },
+   {
+    "id": "tttt----89----10-2-3 ",
+    "question": "对比2020年末和2021年末的数据，该公司的机构持股比例和基金持股比例分别是多少(四舍五入精确到小数点后两位，并以百分比形式表示)，变化了多少(保留正负符号，四舍五入精确到小数点后两位，并以百分比形式表示)？",
+    "db_table": "AStockFinanceDB.LC_StockHoldingSt"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----90",
+  "team": [
+   {
+    "id": "tttt----90----11-2-1 ",
+    "question": "九州通在2020-2021年间实施了几次分红方案？每次分红的合计派现金额（四舍五入保留两位小数，单位元）和实施公告日期（xxxx-xx-xx的格式）分别是多少？",
+    "db_table": "AStockFinanceDB.LC_Dividend"
+   },
+   {
+    "id": "tttt----90----11-2-2 ",
+    "question": "从公司年报中，在2020-2021年间，该公司的机构持无限售流通A股比例是是否增长(输出是/否)，请列出具体数据，保留4位小数。",
+    "db_table": "AStockShareholderDB.LC_StockHoldingSt"
+   },
+   {
+    "id": "tttt----90----11-2-3 ",
+    "question": "在2020-2021年间，公司发生了多少重大借贷事件（单笔金额超过3000万元）？这些借贷事件最大金额和对应的借款方和贷款方是谁？",
+    "db_table": "AStockEventsDB.LC_Credit"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----91",
+  "team": [
+   {
+    "id": "tttt----91----12-2-1 ",
+    "question": "在2021-12-31这一天，A股市场中创出月度新高的公司有哪些（中文名称缩写即可）？他们的证券代码是多少？",
+    "db_table": "AStockMarketQuotesDB.CS_StockPatterns, AStockBasicInfoDB.LC_StockArchives"
+   },
+   {
+    "id": "tttt----91----12-2-2 ",
+    "question": "在这些创出新高的公司中，哪些公司的股东中包含企业资本？请列出公司名（中文名称缩写即可）和企业资本股东名称",
+    "db_table": "AStockShareholderDB.LC_MainSHListNew, AStockBasicInfoDB.LC_StockArchives, InstitutionDB.LC_InstiArchive"
+   },
+   {
+    "id": "tttt----91----12-2-3 ",
+    "question": "对于同时具备企业资本背景和创新高的公司，请从以下维度深入分析：\n    这些公司的行业代码是什么？行业相同的公司分别是什么（中文名称缩写即可）",
+    "db_table": "AStockIndustryDB.LC_ExgIndustry, AStockBasicInfoDB.LC_StockArchives"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----92",
+  "team": [
+   {
+    "id": "tttt----92----13-2-1 ",
+    "question": "华夏鼎康债券A在2019年的分红次数是多少？每次分红的派现比例是多少？",
+    "db_table": "PublicFundDB.MF_Dividend"
+   },
+   {
+    "id": "tttt----92----13-2-2 ",
+    "question": "基于上述分红数据，在2019年最后一次分红时，如果一位投资者持有1000份该基金，税后可以获得多少分红收益？",
+    "db_table": "PublicFundDB.MF_Dividend, PublicFundDB.MF_FundArchives"
+   },
+   {
+    "id": "tttt----92----13-2-3 ",
+    "question": "请结合该基金所属的债券型基金分类，分析2019年同类基金的平均分红次数和平均派现比例（四舍五入保留4位小数）",
+    "db_table": "PublicFundDB.MF_Dividend, PublicFundDB.MF_FundArchives, AStockFinanceDB.LC_Dividend"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----93",
+  "team": [
+   {
+    "id": "tttt----93----14-2-1 ",
+    "question": "中铁工业在2021年签订了哪些金额较大的重大合同？请列出前两大合同的发布日期(xxxx-xx-xx的格式)，合同标的和合同金额(四舍五入保留两位小数)。",
+    "db_table": "很抱歉，我无法直接访问数据库来检索特定信息，例如中铁工业在2021年签订的重大合同的详情。但是，我可以指导您如何使用数据库查询来获取这些信息。\n\n如果您有访问包含此类数据的数据库的权限，您可以使用以下SQL查询语句作为起点来检索所需的信息：\n\n```sql\nSELECT\n  发布日期,\n  合同标的,\n  合同金额\nFROM\n  AStockEventsDB.LC_MajorContract\nWHERE\n  事件主体_交易对象名称 = '中铁工业'\n  AND 发布日期 BETWEEN '2021-01-01' AND '2021-12-31'\nORDER BY\n  合同金额 DESC\nLIMIT 2;\n```\n\n这个查询语句假设您正在使用的是上面提供的数据库结构，并且有一个表`LC_MajorContract`，其中包含了公司重大合同的详细信息。这个查询将筛选出2021年中铁工业签订的合同，并按照合同金额降序排列，最后只选择金额最大的前两个合同。\n\n请注意，您需要根据实际的数据库结构和字段名称调整上述查询语句。如果您没有数据库访问权限，您可能需要联系相关数据服务的提供商或通过官方渠道来获取这些信息。"
+   },
+   {
+    "id": "tttt----93----14-2-2 ",
+    "question": "中铁工业2021年重大合同的季度数量如何？",
+    "db_table": "要回答这个问题，我们需要假设存在一个数据库表，其中包含了中铁工业的重大合同信息以及与这些合同相关的日期。基于您之前提供的数据库结构信息，我们可以构造一个SQL查询来获取2021年中铁工业每个季度签订的重大合同数量。\n\n假设我们使用的表名为`AStockEventsDB.LC_MajorContract`，并且该表中有一个字段`发布日期`用来表示合同发布的日期。下面是一个可能的SQL查询：\n\n```sql\nSELECT\n  CONCAT('Q', QUARTER(发布日期), ' 2021') AS 季度,\n  COUNT(*) AS 合同数量\nFROM\n  AStockEventsDB.LC_MajorContract\nWHERE\n  事件主体_交易对象名称 = '中铁工业'\n  AND YEAR(发布日期) = 2021\nGROUP BY\n  QUARTER(发布日期)\nORDER BY\n  QUARTER(发布日期);\n```\n\n这个查询会按季度统计2021年中铁工业签订的重大合同数量，并按季度进行排序。这里使用了`QUARTER()`函数来提取日期字段的季度信息，`YEAR()`函数来确保只统计2021年的数据，`CONCAT()`函数来生成季度的描述。\n\n请根据您实际可访问的数据库结构和字段名称调整上述查询。如果您无法直接执行SQL查询，您可能需要联系数据服务提供商或使用其他数据访问方法来获取这些信息。"
+   },
+   {
+    "id": "tttt----93----14-2-3 ",
+    "question": "分析2021年重大合同的交易对手特征：\n1. 重复交易的客户数量及其合同金额（保留两位小数）以及数量和金额占总量的占比（四舍五入保留两位小数，并以百分比形式表示）？\n2. 单一交易对手的合同总金额，最高是谁，总金额是多少（保留两位小数），全部交易对手合同总金额占比（四舍五入保留两位小数，并以百分比形式表示）？",
+    "db_table": "为了回答这些问题，我们需要对数据库中存储重大合同信息的相关表进行一些复杂的查询。假设我们使用的表名为`AStockEventsDB.LC_MajorContract`，并且该表中包含了以下字段：\n\n- `事件主体_交易对象名称`：表示交易对手的名称\n- `合同金额`：表示合同的总金额\n\n我们可以使用SQL查询来完成这些分析。下面是可能的查询语句：\n\n1. 重复交易的客户数量及其合同金额以及占比：\n\n```sql\nWITH RepeatedCustomers AS (\n  SELECT\n    事件主体_交易对象名称,\n    COUNT(*) AS 合同数量,\n    SUM(合同金额) AS 总金额\n  FROM\n    AStockEventsDB.LC_MajorContract\n  WHERE\n    YEAR(发布日期) = 2021\n  GROUP BY\n    事件主体_交易对象名称\n  HAVING\n    COUNT(*) > 1\n),\nTotalContracts AS (\n  SELECT\n    SUM(合同金额) AS 总合同金额,\n    COUNT(*) AS 总合同数量\n  FROM\n    AStockEventsDB.LC_MajorContract\n  WHERE\n    YEAR(发布日期) = 2021\n)\nSELECT\n  RC.事件主体_交易对象名称,\n  RC.合同数量,\n  RC.总金额,\n  ROUND((RC.合同数量 / TC.总合同数量) * 100, 2) AS 数量占比,\n  ROUND((RC.总金额 / TC.总合同金额) * 100, 2) AS 金额占比\nFROM\n  RepeatedCustomers RC\nCROSS JOIN\n  TotalContracts TC;\n```\n\n2. 单一交易对手的合同总金额，最高的是谁，总金额是多少，以及占比：\n\n```sql\nWITH SingleTransactions AS (\n  SELECT\n    事件主体_交易对象名称,\n    SUM(合同金额) AS 总金额\n  FROM\n    AStockEventsDB.LC_MajorContract\n  WHERE\n    YEAR(发布日期) = 2021\n  GROUP BY\n    事件主体_交易对象名称\n),\nTotalContracts AS (\n  SELECT\n    SUM(合同金额) AS 总合同金额\n  FROM\n    AStockEventsDB.LC_MajorContract\n  WHERE\n    YEAR(发布日期) = 2021\n)\nSELECT\n  ST.事件主体_交易对象名称,\n  ST.总金额,\n  ROUND((ST.总金额 / TC.总合同金额) * 100, 2) AS 金额占比\nFROM\n  SingleTransactions ST\nCROSS JOIN\n  TotalContracts TC\nORDER BY\n  ST.总金额 DESC\nLIMIT 1;\n```\n\n请注意，上述查询是基于您提供的数据库结构示例编写的。在实际应用中，您可能需要根据实际的数据库结构和字段名称调整查询语句。如果您无法直接执行SQL查询，您可能需要联系数据服务提供商或使用其他数据访问方法来获取这些信息。"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----94",
+  "team": [
+   {
+    "id": "tttt----94----15-2-1 ",
+    "question": "华峰化学在2019年发生了哪些舆情事件？请列出事件发生时间(YYYY-MM-DD)、事件名称和情感方向。",
+    "db_table": "AStockEventsDB.LC_Warrant,AStockEventsDB.LC_Credit,AStockEventsDB.LC_SuitArbitration,AStockEventsDB.LC_EntrustInv,AStockEventsDB.LC_Regroup,AStockEventsDB.LC_MajorContract,AStockEventsDB.LC_InvestorRa,AStockEventsDB.LC_InvestorDetail"
+   },
+   {
+    "id": "tttt----94----15-2-2 ",
+    "question": "在上述重大事件发生期间，华峰化学是否出现过停牌？如有，请列出停牌起止日期(YYYY-MM-DD)和具体原因。",
+    "db_table": "AStockMarketQuotesDB."
+   },
+   {
+    "id": "tttt----94----15-2-3 ",
+    "question": "2019年期间，华峰化学发生的最大比例股权变动是在哪一天（xxxx-xx-xx）？这次变动前后5个交易日的股价累计涨跌幅是多少？（保留2位小数）",
+    "db_table": "AStockShareholderDB.LC_ShareTransfer, AStockMarketQuotesDB.QT_DailyQuote"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----95",
+  "team": [
+   {
+    "id": "tttt----95----16-2-1 ",
+    "question": "大北农在2019年第一季度末的资产负债率是多少？其中流动资产和非流动资产分别占总资产的比例是多少？（四舍五入保留2位小数）",
+    "db_table": "由于我无法直接访问外部数据库，因此我无法提供大北农2019年第一季度末的具体财务数据。资产负债率是指公司负债总额与资产总额的比率，它反映了公司资产中由债权人提供资金的比例。要计算资产负债率，你需要知道公司在2019年第一季度末的总负债和总资产。\n\n资产负债率 = (总负债 / 总资产) * 100%\n\n流动资产和总资产的比例可以通过将流动资产除以总资产来计算，非流动资产和总资产的比例可以通过将非流动资产除以总资产来计算。\n\n流动资产比例 = (流动资产 / 总资产) * 100%\n非流动资产比例 = (非流动资产 / 总资产) * 100%\n\n你可以通过查看大北农2019年第一季度末的财务报表来获取这些数据。财务报表通常可以在公司的官方网站或者金融信息服务平台上找到。如果你有这些数据，你可以使用上述公式来计算资产负债率以及流动资产和非流动资产的比例。如果你需要进一步的帮助来理解如何阅读财务报表或者如何进行计算，请提供数据，我可以帮助你完成计算。"
+   },
+   {
+    "id": "tttt----95----16-2-2 ",
+    "question": "基于上述资产结构特征，该公司在2019年为其子公司提供担保的总金额是多少？(保留2位小数)最长担保期限为多少个月？（保留整数）",
+    "db_table": "很抱歉，但作为一个AI，我无法访问实时数据库或外部信息系统来检索特定公司的历史财务数据或担保信息。要获取大北农在2019年为其子公司提供担保的总金额和最长担保期限，你需要查阅该公司的官方财务报告或相关公告，这些通常可以在公司的官方网站、证券交易所的公告板或金融信息服务平台上找到。\n\n如果你能提供这些数据，我可以帮助你计算所需的担保总金额和最长担保期限。通常，这些信息会在财务报告的“关联方交易”或“担保和承诺”部分披露。如果你需要帮助解释这些财务报告中的术语或如何找到这些信息，请告知，我会尽力提供帮助。"
+   },
+   {
+    "id": "tttt----95----16-2-3 ",
+    "question": "针对上述担保事项，公司在2019年召开的股东大会的具体日期以及参会股东所持表决权占公司总股本的比例是多少？(可以使用最近一次可查总股本的数据)（四舍五入保留2位小数）",
+    "db_table": "我无法直接访问实时数据库或外部信息系统以检索特定公司的历史股东大会信息。为了获取大北农2019年召开的股东大会的具体日期以及参会股东所持表决权占公司总股本的比例，你需要查阅该公司的官方公告或股东大会通知，这些通常可以在公司的官方网站、证券交易所的公告板或金融信息服务平台上找到。\n\n股东大会通知通常会包括会议日期、时间、地点以及审议事项等信息。参会股东所持表决权占公司总股本的比例通常会在股东大会决议公告中披露，或者在股东大会通知中提及参会资格和表决权的相关规定。\n\n如果你能提供这些数据，我可以帮助你计算参会股东所持表决权占公司总股本的比例。如果你需要帮助解释这些公告中的术语或如何找到这些信息，请告知，我会尽力提供帮助。"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----96",
+  "team": [
+   {
+    "id": "tttt----96----17-2-1 ",
+    "question": "梅花生物在2019年进行了几次股票回购？回购金额合计是多少？(四舍五入保留2位小数)",
+    "db_table": "AStockShareholderDB.LC_Buyback,AStockShareholderDB.LC_BuybackAttach"
+   },
+   {
+    "id": "tttt----96----17-2-2 ",
+    "question": "在上述回购计划中，最大单笔回购的具体时间(xxxx-xx-xx的格式)和金额是多少？(四舍五入保留2位小数)",
+    "db_table": "AStockShareholderDB.LC_Buyback,AStockShareholderDB.LC_BuybackAttach"
+   },
+   {
+    "id": "tttt----96----17-2-3 ",
+    "question": "该公司2019年的平均回购时间跨度是多少？(天为单位，2位小数)平均回购金额是多少？(四舍五入保留2位小数)",
+    "db_table": "AStockShareholderDB.LC_Buyback,AStockShareholderDB.LC_BuybackAttach"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----97",
+  "team": [
+   {
+    "id": "tttt----97----18-2-1 ",
+    "question": "深科技在2021年12月24日的交易数据如何?具体包括收盘价、成交量、换手率，保留2位小数。",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----97----18-2-2 ",
+    "question": "基于上述交易数据，该股当日是否创出了近一周、近一月的新高?如果不是,最高价分别是多少?",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote, AStockMarketQuotesDB.CS_StockPatterns"
+   },
+   {
+    "id": "tttt----97----18-2-3 ",
+    "question": "结合该股当日的MACD指标(考虑成交量)以及均线排列情况,从技术面分析其走势特征。",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote, AStockMarketQuotesDB.CS_StockPatterns, AStockMarketQuotesDB.CS_TurnoverVolTecIndex"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----98",
+  "team": [
+   {
+    "id": "tttt----98----19-2-1 ",
+    "question": "安井食品在2019年第一季度的最高价、最低价分别是多少？成交量最大的一天是哪天（XXXX-XX-XX）？",
+    "db_table": "AStockMarketQuotesDB.QT_DailyQuote"
+   },
+   {
+    "id": "tttt----98----19-2-2 ",
+    "question": "在上述成交量最大的那天，该股票是否创下了近一周、近一月或近一季度的新高？如果是，分别创下了哪些新高？",
+    "db_table": "AStockMarketQuotesDB.CS_StockPatterns"
+   },
+   {
+    "id": "tttt----98----19-2-3 ",
+    "question": "分析该股票2019年1月份的成交量特征：哪几天的成交量超过月均量的2倍？具体是多少比例？这些放量日的收盘价相比前一日分别上涨/下跌了多少？(四舍五入保留两位小数)",
+    "db_table": "AStockMarketQuotesDB.CS_StockPatterns, AStockMarketQuotesDB.QT_DailyQuote"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----99",
+  "team": [
+   {
+    "id": "tttt----99----20-2-1 ",
+    "question": "美年健康在2019年发生的股权质押中，质押比例最大的一笔是哪个股东质押给了谁？质押股数和占总股本比例是多少，保留4位小数？",
+    "db_table": "AStockShareholderDB.LC_ShareTransfer,AStockShareholderDB.LC_ShareFP,AStockShareholderDB.LC_ShareFPSta"
+   },
+   {
+    "id": "tttt----99----20-2-2 ",
+    "question": "在上述最大比例质押发生时，该公司的短期借款余额是多少？(保留两位小数)",
+    "db_table": "AStockFinanceDB.LC_BalanceSheetAll"
+   },
+   {
+    "id": "tttt----99----20-2-3 ",
+    "question": "该公司2019年全年累计发生几笔股权质押？质押融资总额占其年末总资产的比例是多少？(保留两位小数)",
+    "db_table": "AStockShareholderDB.LC_ShareTransfer, AStockFinanceDB.LC_BalanceSheetAll"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----100",
+  "team": [
+   {
+    "id": "tttt----100----21-2-1 ",
+    "question": "横店东磁在2019年1月份进行了多少次投资者关系活动？这些活动中参与机构最多的一次活动发生在哪天(xxxx-xx-xx的格式)，有多少家机构参与？",
+    "db_table": "AStockEventsDB.LC_InvestorRa,AStockEventsDB.LC_InvestorDetail"
+   },
+   {
+    "id": "tttt----100----21-2-2 ",
+    "question": "该公司高管的年度薪酬总额是多少？一年后呢？变化比例是(四舍五入保留到小数点两位)？",
+    "db_table": "AStockOperationsDB.LC_RewardStat"
+   },
+   {
+    "id": "tttt----100----21-2-3 ",
+    "question": "请结合该公司所属的概念板块，列出2021年该公司所属的各个概念板块的平均高管薪酬和投资者关系活动频次是多少？（四舍五入保留两位小数）",
+    "db_table": "AStockIndustryDB.LC_COConcept, AStockOperationsDB.LC_RewardStat, AStockEventsDB.LC_InvestorRa"
+   }
+  ]
+ },
+ {
+  "tid": "tttt----101",
+  "team": [
+   {
+    "id": "tttt----101----22-2-1 ",
+    "question": "中直股份在2021年12月31日的总股本是多少？其中有限售条件的流通股占比是多少？(保留两位小数)",
+    "db_table": "AStockShareholderDB.LC_ShareStru,AStockShareholderDB.LC_ShareHoldingSt"
+   },
+   {
+    "id": "tttt----101----22-2-2 ",
+    "question": "在这个时间点，该股票的境内自然人持股和境外自然人持股比例分别是多少？两者相差多少个百分点？(保留两位小数)",
+    "db_table": "AStockShareholderDB.LC_ShareHoldingSt"
+   },
+   {
+    "id": "tttt----101----22-2-3 ",
+    "question": "该股票属于哪些概念板块？在这些概念板块中，其他公司2021年12月31日的平均有限售股比例是多少？该股票是高于还是低于板块平均水平，偏离了多少个百分点？(保留两位小数)",
+    "db_table": "AStockIndustryDB.LC_COConcept, AStockIndustryDB.LC_ConceptList, AStockShareholderDB.LC_ShareStru"
+   }
+  ]
+ }
+]
