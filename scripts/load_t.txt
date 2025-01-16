@@ -1,2 +1,0 @@
-/Users/keraszhou/mywork/pywork/zhipu_finance_llm_cmp_2024/scripts/load_table.py:93: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
-  df['flag'] = df[['库名英文', '表英文']].apply(lambda x: insert_to_table(x[0], x[1]),axis=1)
