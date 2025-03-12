@@ -1,5 +1,5 @@
 
-api_key="dc1e8b158e4d09d2e11c94cf7dbc5680.6p6wswTgiOOys1qV"
+api_key="***"
 
 import requests
 import json
@@ -24,7 +24,7 @@ def call_qwen72b(messages):
     try:
         from openai import OpenAI
         client = OpenAI(
-            base_url="http://10.233.243.163:11434/v1",
+            base_url="http://*.*.*.*:11434/v1",
             api_key="ollama",
         )
 
@@ -41,7 +41,7 @@ def call_qwen72b(messages):
 
 
 def call_qwen72b_npu(messages):
-    unstream_url = 'http://10.138.2.48:10025/v1/chat/completions'
+    unstream_url = 'http://*.*.*.*:10025/v1/chat/completions'
     headers = {"Content-Type": "application/json"}
     try:
 
@@ -71,9 +71,7 @@ def call_qwen72b_npu(messages):
 
 def minmax_chat(input):
 
-    unstream_url = "http://10.183.65.16:20001/minmax_chat_unstream/"
-    #unstream_url = "http://localhost:20001/minmax_chat_unstream/"
-    #unstream_url="http://10.183.65.16:11112/minmax_chat_unstream_proxcy/"
+    unstream_url = "****"
     headers = {"Content-Type": "application/json"}
 
     try:
